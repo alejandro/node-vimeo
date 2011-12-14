@@ -31,8 +31,7 @@ var ep = {
  * videos
  * info
  */
- var r;
-var req = vimeo.request = function req(id,cb){
+var video = vimeo.video = function req(id,cb){
   var url = ep.video + id + '.json';
   request(ep.video + id + '.json', function(err,res){
     if (res.statusCode === 200) {
@@ -47,10 +46,12 @@ var req = vimeo.request = function req(id,cb){
   });
 }
 /*
+ * USO:
  * 33544767
  */
 
 
-req('33544767', function(err,data){
+vimeo.video ('33544767', function(err,data){
+  // Data is Exposed with raw as the whole response, or thumb, username.
   console.log(data.thumb)
 });
