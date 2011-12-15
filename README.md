@@ -2,6 +2,7 @@
 
 Simple Vimeo API interaction for node.js
 
+`npm install n-vimeo`
 ## Example
 
     var vimeo = require('n-vimeo').vimeo;
