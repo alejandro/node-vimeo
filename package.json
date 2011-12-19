@@ -2,13 +2,13 @@
   "author": "Alejandro Morales",
   "name": "n-vimeo",
   "description": "Vimeo API data Integration an extension of vimeo-client",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "keywords": [
     "api",
     "vimeo"  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/alejandromg/n-vimeo.git"
+    "url": "git://github.com/alejandromg/node-vimeo.git"
   },
   "main": "vimeo",
   "engines": {
