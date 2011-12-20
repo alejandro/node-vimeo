@@ -2,7 +2,7 @@
   "author": "Alejandro Morales",
   "name": "n-vimeo",
   "description": "Vimeo API (data) Integration, retrieve info about everything (video,user,activity) with ease",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "keywords": [
     "api",
     "vimeo"  ],
