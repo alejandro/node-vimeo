@@ -49,9 +49,13 @@ describe('Vimeo API', function(){
     });
     it('Should use Api.video endpoint succesfully',function(done){
       api.video('42605731', function(err,res){
-        if (err) throw err;
-        assert.equal(res.statusCode,200);
-        assert.equal(res.body.hasOwnProperty('length'),true)
+        if (err && err.message != 'parsing error') throw err;
+        if (err.message == 'parsing error')
+          assert(err);
+        else if (!err){
+          assert.equal(res.statusCode,200);
+          assert.equal(res.body.hasOwnProperty('length'),true);
+        }
         done()
       })
     })
