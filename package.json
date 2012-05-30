@@ -24,6 +24,6 @@
   },
   "scripts": {
     "start": "node ./lib/vimeo.js",
-    "test": "mocha test/test-*.js -Rspec"
+    "test": "mocha test/test-*.js -R spec"
   }
 }
