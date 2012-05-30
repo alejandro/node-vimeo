@@ -1,8 +1,12 @@
 # Vimeo API Interaction with node.js
 
-Simple Vimeo API interaction for node.js
+[![Build Status](https://secure.travis-ci.org/alejandromg/node-vimeo.png)](http://travis-ci.org/alejandromg/node-vimeo)
+
+
+Simple Vimeo API interaction for node.js based on [request](http://github.com/mikeal/request)
 
 `npm install n-vimeo`
+  
 ## Example
 
     var vimeo = require('n-vimeo').vimeo;
@@ -15,7 +19,7 @@ Simple Vimeo API interaction for node.js
 ## Motivation
 
 There is a [vimeo-client](https://github.com/tih-ra/vimeo-client) already but that module expose a middleware for upload and oauth process. 
-But I needed is a client for work with the data API of vimeo, so I created this module.
+But what I needed was a client to work with the data API of vimeo, so I created this module.
 
 ## API
 
@@ -57,4 +61,4 @@ O `video`:
 
 * [Alejandro Morales](http://alejandromorales.co.cc)
 
-## Licence:  MIT
+## Licence:  MIT 2012

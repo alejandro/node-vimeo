@@ -1,11 +1,12 @@
 {
   "author": "Alejandro Morales",
   "name": "n-vimeo",
-  "description": "Vimeo API (data) Integration, retrieve info about everything (video,user,activity) with ease",
-  "version": "0.2.4",
+  "description": "Vimeo API (data) Integration for the rest of us",
+  "version": "0.3.0",
   "keywords": [
     "api",
-    "vimeo"
+    "vimeo",
+    "request"
   ],
   "repository": {
     "type": "git",
@@ -13,12 +14,16 @@
   },
   "main": "vimeo",
   "engines": {
-    "node": ">=0.4.7"
+    "node": ">=0.6.0"
   },
   "dependencies": {
     "request": "*"
   },
   "devDependencies": {
     "mocha": "~1.0.3"
+  },
+  "scripts": {
+    "start": "node ./lib/vimeo.js",
+    "test": "mocha test/test-*.js -Rspec"
   }
 }
