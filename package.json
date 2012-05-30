@@ -5,7 +5,8 @@
   "version": "0.2.4",
   "keywords": [
     "api",
-    "vimeo"  ],
+    "vimeo"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/alejandromg/node-vimeo.git"
@@ -16,5 +17,8 @@
   },
   "dependencies": {
     "request": "*"
+  },
+  "devDependencies": {
+    "mocha": "~1.0.3"
   }
 }
